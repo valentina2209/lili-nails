@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Майстер манікюру</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+        <div class="wrap">
+            <h1 class="logo">Lili Nails</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#portfolio">Портфоліо</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <button class="burger-btn" type="button" data-menu-open>
+        <svg class="burger-icon" width="24" height="24">
+            <use href="./img/equalizer.svg"></use>
+        </svg>
+
+    </button>
+  </header>
+
+  <!-- Мобільне меню -->
+  <div class="modal" id="modalMenu">
+    <div class="modal-content">
+      <button class="close" id="closeModal">
+        <svg class="mobile-icon-close" width="8" height="8">
+            <use href="./img/close-black.svg"></use>
+        </svg>
+      </button>
+      <nav class="modal-nav">
+        <ul>
+          <li><a href="#portfolio">Портфоліо</a></li>
+          <li><a href="#services">Послуги</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Ніжний манікюр для кожної дівчини</h2>
+      <p>Професійний догляд, безпека та стиль у кожному дотику</p>
+      <a href="#contact" class="btn">Записатись</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h3>Послуги</h3>
+      <ul class="services-list">
+        <li>Класичний манікюр</li>
+        <li>Гель-лак покриття</li>
+        <li>Дизайн нігтів</li>
+        <li>SPA-догляд для рук</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h3>Портфоліо</h3>
+      <div class="portfolio-grid">
+        <img src="./img/nails.jpg" width="320" alt="Манікюр 1" />
+        <img src="./img/nails2.jpg" width="320" alt="Манікюр 2" />
+        <img src="./img/nails3.jpg" width="320" alt="Манікюр 3" />
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h3>Контакти</h3>
+      <p>Телефон: <a href="tel:+380991234567">+38 (099) 123 45 67</a></p>
+      <p>Email: <a href="mailto:eminails@gmail.com">eminails@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/eminails" target="_blank">@eminails</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Lili Nails. Усі права захищено.</p>
+    </div>
+  </footer>
+</body>
+</html>
